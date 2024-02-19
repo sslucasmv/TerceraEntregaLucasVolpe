@@ -1,0 +1,21 @@
+
+/* MENSAJE PUBLICIDAD */
+.text-alignC {
+    text-align: center;
+ }
+ 
+ .info-advice {
+    @include flex-center;
+    @include promoAviso;
+    margin-top: .9375rem;
+    text-align: center;
+ 
+ }
+ 
+ .info-advice h2 {
+     font-size: 1.25rem;
+     font-weight:bolder;
+     margin-top: .625rem;
+     text-shadow: 1px 1px 2px #ddd ;
+ }
+ 
